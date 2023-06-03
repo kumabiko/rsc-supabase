@@ -3,5 +3,5 @@ export default function Page() {
     <main>
       <div className="m-10 text-center">Hello World</div>
     </main>
-  )
+  );
 }
