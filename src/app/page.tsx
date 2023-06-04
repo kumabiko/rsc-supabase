@@ -11,7 +11,6 @@ export default function Page() {
       <div className="m-10 text-center">
         <p>Hello World</p>
         <Suspense fallback={<Spinner color="border-green-500" />}>
-          {/* @ts-expect-error Async Server Component */}
           <NotesList />
         </Suspense>
         <TimerCounter />
